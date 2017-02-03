@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>About Me</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-	<div>
-		<h1>Lukas Olson</h1>
-		<p>I'm an aspiring full stack web developer. I love dogs, coding, and video games</p>
-		<ul>
-			<li>Java</li>
-   			<li>C#</li>
-    		<li>HTML</li>
-    		<li>CSS</li>
-    		<li>JavaScript</li>
-    		<li>jQuery</li>
-    	</ul>
+---
+layout: default
+---
 
-    	<h2>Contact Info</h2>
-    	<p>GitHub: <a href="https://github.com/lukasdragon">lukasdragon</a></p>
-    </div>
-</body>
-</html>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
