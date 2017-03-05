@@ -84,3 +84,19 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+prose:
+  rooturl: "_Posts"
+  siteurl: "http://lukasolson.me"
+  - name: "layout"
+    field:
+      element: "hidden"
+      value: "blog"
+  metadata:
+  _posts:
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
+  
+  
