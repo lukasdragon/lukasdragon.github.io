@@ -19,11 +19,14 @@
 			</header>
 
 		<!-- Signup Form -->		
-			
 			<form action="http://formspree.io/lukasolson64@gmail.com" method="POST" id="signup-form">
-				<input name="email" type="email" placeholder="Your email">				
-				<button type="submit">Sign Up</button>
+				<input name="email" type="email" placeholder="Your email">	
+				<input type="hidden" name="_subject" value="New Email Added! lukasolson.me" />
+				<input type="text" name="_gotcha" style="display:none" />
+				<input type='submit' value='Sign Up' />
 			</form>
+			
+			
 
 		<!-- Footer -->
 			<footer id="footer">
