@@ -1,18 +1,42 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Coming Soon...</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+		<!-- Header -->
+			<header id="header">
+				<h1>Coming Soon...</h1>
+				<p>Eventually this will be the home to Lukas G. Olson's personal website. 
+				<br>For now, however, only this notice shall be present...</p>
+			</header>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<!-- Signup Form -->
+			<form action="http://formspree.io/lukasolson64@gmail.com" method="POST" id="signup-form">		
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="http://steamcommunity.com/id/LukasDragon/" class="icon fa-steam"><span class="label">Steam</span></a></li>
+					<li><a href="https://www.instagram.com/aquadark_esq/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/lukasdragon" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:lukasolson64@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>				
+			</footer>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
