@@ -1,0 +1,40 @@
+{
+  "server": {
+    "name": "Aqua's Box of Fun",
+    "banner": "img/banner.png"
+  },
+  "plugins" : {
+    "slideshow" : {
+      "active" : true,
+      "speed" : 1000,
+      "time" : 5000,
+      "random" : true,
+      "image" : [
+        "img/rudolfthegmodwizard.jpg",
+        "img/propspawner.jpg",
+        "img/sky.jpg",
+		"img/hl2field.jpg",
+		"img/bridge.jpg",
+		"img/lights.jpg",
+		"img/serverdust.jpg",
+		"img/thrust.jpg",
+		"img/war.jpg",
+		"img/warehouse.jpg"
+      ]
+    },
+    "music" : {
+      "active" : true,
+      "file" : "breeze.wav",
+      "volume" : 0.1,
+      "title" : "Blaine Morris - Breeze"
+    }
+  },
+  "rules": [
+	{"line" : "Adhere to all gamemode rules."},
+	{"line" : "Be kind and helpful."},
+    {"line" : "Don't be toxic nor salty."},
+    {"line" : "Don't troll."},    
+	{"line" : "Listen to the admins."},	
+	{"line" : "Have Fun!"}
+  ]
+}
