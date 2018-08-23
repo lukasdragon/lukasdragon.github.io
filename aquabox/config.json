@@ -5,10 +5,10 @@
   },
   "plugins" : {
     "slideshow" : {
-      "active" : true,
+      "active" : false,
       "speed" : 1000,
       "time" : 5000,
-      "random" : true,
+      "random" : false,
       "image" : [
         "img/rudolfthegmodwizard.jpg",
         "img/propspawner.jpg",
